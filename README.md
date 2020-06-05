@@ -48,4 +48,5 @@ winpty下的ping输出：
 
 
 另一种办法是[转换文本编码](https://hustlei.github.io/2018/11/msys2-for-win.html#msys2%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98)。
+
 使用winpty的好处在于，一些需要交互和输出的应用，会输出消息到Windows控制台，而不是mintty上。和msys2一同使用GnuPGv2时（内置源提供的GnuPG已经很旧了，需要手动安装，[参考](https://hustlei.github.io/2018/11/msys2-for-win.html)），[一些操作需要使用winpty才能正常继续](https://github.com/carlolars/gnupg2-msys2/blob/master/README.md#gpg-and-mintty-needs-winpty)，否则会卡住。

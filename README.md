@@ -51,6 +51,6 @@ winpty下的ping输出：
 
 使用winpty的好处在于，一些需要交互和输出的应用，会输出消息到Windows控制台，而不是mintty上。和msys2一同使用GnuPGv2时（内置源提供的GnuPG已经很旧了，需要手动安装，[参考](https://hustlei.github.io/2018/11/msys2-for-win.html)），[一些操作需要使用winpty才能正常继续](https://github.com/carlolars/gnupg2-msys2/blob/master/README.md#gpg-and-mintty-needs-winpty)，否则会卡住。
 
-##致谢
+# 致谢
 [Carl](https://github.com/carlolars) ，感谢他写了在msys2上使用GnuPGv2的说明。
 [lieleilei](https://github.com/hustlei) ，感谢他写了msys2在Windows上的一些问题的解决方案。

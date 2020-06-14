@@ -6,6 +6,7 @@ msys2的git会将大于0x80的字符（例如中文）转义为类似 `、346\26
 git config --global core.quotePath=false
 ```
 ## 运行Windows控制台应用程序
+更新：最近的msys2已经修复了此问题。
 在中文Windows系统上的msys2，*mintty*作为终端模拟器时，直接运行诸如`ping`的命令，会有乱码输出。此时可转用*winpty*运行此类命令。
 安装msys2中提供的winpty：
 ```
